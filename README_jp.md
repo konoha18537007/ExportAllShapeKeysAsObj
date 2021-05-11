@@ -13,7 +13,7 @@ _Mix Non Zero Shape Keys_ のチェックを入れずに実行した場合はシ
 
 ![screen2](screen2.png 'screen2') ![screen3](screen3.png 'screen3')
 
-I tested this only on blender 2.92. Use this script at your own risk.
+blender 2.92 でしか動作確認していません。使用は自己責任で。
 
 ## 使い方
 1. 対象のオブジェクトを選択。
@@ -21,19 +21,19 @@ I tested this only on blender 2.92. Use this script at your own risk.
 2. "File" > "Export" > "Export All Shape Keys As Obj" で実行。
 
 3. 保存先のディレクトリを選択し、必要ならばオプションを指定 :
- - Mix Non Zero Shape Keys
-  + チェックを入れて実行した場合、値が0ではないシェイプキーのエクスポートはスキップし、それらのシェイプキーの値はそのままに、それ以外のシェイプキーをエクスポートする。
+ * Mix Non Zero Shape Keys
+   - チェックを入れて実行した場合、値が0ではないシェイプキーのエクスポートはスキップし、それらのシェイプキーの値はそのままに、それ以外のシェイプキーをエクスポートする。
 
-  + チェックを入れずに実行した場合、シェイプキーの値に関係なく、全てのシェイプキーがそれぞれそのまま出力される。
+   - チェックを入れずに実行した場合、シェイプキーの値に関係なく、全てのシェイプキーがそれぞれそのまま出力される。
 
- - Scale
-  + blender の標準のOBJエクスポートオプションと同じ
+ * Scale
+   - blender の標準のOBJエクスポートオプションと同じ
 
- - Apply Modifiers
-  + blender の標準のOBJエクスポートオプションと同じ
+ * Apply Modifiers
+   - blender の標準のOBJエクスポートオプションと同じ
 
- - Write Materials
-  + blender の標準のOBJエクスポートオプションと同じ
+ * Write Materials
+   - blender の標準のOBJエクスポートオプションと同じ
 
 ## インストール
 Edit > Preferences > Add-ons > Install... and select export_all_shape_keys_as_obj.py
