@@ -21,18 +21,18 @@ I tested this only on blender 2.92. Use this script at your own risk.
 2. Run this script by "File" > "Export" > "Export All Shape Keys As Obj".
 
 3. Choose destination directory, and set options below :
- - Mix Non Zero Shape Keys
-  + If checked, this script will skip the shape keys with non zenro value and export the rest of the shape keys with leaving non zero valued keys as it is, which means exported OBJs will have mixed shapes with non zero valued shape keys.
-  + If unchecked, this script will just export every single shape keys.
+ * Mix Non Zero Shape Keys
+   - If checked, this script will skip the shape keys with non zenro value and export the rest of the shape keys with leaving non zero valued keys as it is, which means exported OBJs will have mixed shapes with non zero valued shape keys.
+   - If unchecked, this script will just export every single shape keys.
 
- - Scale
-  + The same as blender OBJ export option.
+ * Scale
+   - The same as blender OBJ export option.
 
- - Apply Modifiers
-  + The same as blender OBJ export option.
+ * Apply Modifiers
+   - The same as blender OBJ export option.
 
- - Write Materials
-  + The same as blender OBJ export option.
+ * Write Materials
+   - The same as blender OBJ export option.
 
 ## Installation
 Edit > Preferences > Add-ons > Install... and select export_all_shape_keys_as_obj.py
